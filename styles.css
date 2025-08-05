@@ -1,0 +1,52 @@
+/* Resetando as margens e o padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.game-container {
+    position: relative;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+#speedPanel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#speedPanel p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#nitroButton {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nitroButton:hover {
+    background-color: #00b5b5;
+}
